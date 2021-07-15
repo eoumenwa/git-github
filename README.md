@@ -53,7 +53,9 @@ $ git branch
 
 oeume@KRISOLIZ-SFFHPDPC MINGW64 ~/Desktop/GitPracs/DefaultWeb_WorkingDirectory (master)
 $ git checkout NewRemoteLocalFlowDemo
+
 Switched to a new branch 'NewRemoteLocalFlowDemo'
+
 Branch 'NewRemoteLocalFlowDemo' set up to track remote branch 'NewRemoteLocalFlo
 wDemo' from 'origin'.
 
@@ -86,12 +88,15 @@ From https://github.com/eoumenwa/DefaultWeb_WorkingDirectory
 
 oeume@KRISOLIZ-SFFHPDPC MINGW64 ~/Desktop/GitPracs/DefaultWeb_WorkingDirectory (NewRemoteLocalFlowDemo)
 $ git checkout master
+
 Switched to branch 'master'
 Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
   (use "git pull" to update your local branch)
 
 oeume@KRISOLIZ-SFFHPDPC MINGW64 ~/Desktop/GitPracs/DefaultWeb_WorkingDirectory (master)
+
 $ git pull origin master
+
 From https://github.com/eoumenwa/DefaultWeb_WorkingDirectory
  * branch            master     -> FETCH_HEAD
 Updating bdb20b5..38a10eb
@@ -119,6 +124,7 @@ oeume@KRISOLIZ-SFFHPDPC MINGW64 ~/Desktop/GitPracs/DefaultWeb_WorkingDirectory (
 $
 
 On deleting local branches
+
 oeume@KRISOLIZ-SFFHPDPC MINGW64 ~/Desktop/GitPracs/DefaultWeb_WorkingDirectory (NewRemoteLocalFlowDemo)
 $ git checkout master
 Switched to branch 'master'
@@ -138,6 +144,7 @@ $ git branch -d Feature01
 Deleted branch Feature01 (was bdb20b5).
 
 oeume@KRISOLIZ-SFFHPDPC MINGW64 ~/Desktop/GitPracs/DefaultWeb_WorkingDirectory (master)
+
 $ git branch
   Feature02
   NewRemoteLocalFlowDemo
